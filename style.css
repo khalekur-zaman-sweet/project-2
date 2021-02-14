@@ -81,10 +81,9 @@ a{
 }
 /*------i phone------*/
 
-.small-container{
-    max-width: 1080px;
+.products{
+    max-width: 100%;
     margin: auto;
-   
 }
 .col-4{
     flex-basis: 25%;
@@ -175,7 +174,7 @@ h4{
 .footer-col-1 .pic{
     width: 200px;
     text-align: center;
-    margin-left: 65vh;
+    margin-left: 85vh;
    
 }
 .footer-col-1 p{
@@ -189,7 +188,7 @@ h4{
     display: flex;
 }
 .sweet .left img{
-    width: 150px;
+    width: 250px;
 
 }
 .left{
@@ -215,3 +214,36 @@ ul li a{
     font-size: 20px;
     color: black;
 }
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+}
+
+
+
+
+
+
