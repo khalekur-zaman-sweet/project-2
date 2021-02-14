@@ -223,12 +223,12 @@ ul li a{
 
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 420px){
     nav ul{
         position: absolute;
         top: 70px;
         left: 0;
-        background: #333;
+        background: rgb(221, 158, 158);
         width: 100%;
     }
     nav ul li{
